@@ -9,7 +9,7 @@
         xmlns:localModels="clr-namespace:Hello_World1.Models"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:md="https://github.com/fantasticfiasco/mvvm-dialogs"
-        md:DialogServiceViews.IsRegistered="True"
+        md:DialogServiceViews.IsRegistered="False"
         mc:Ignorable="d"
         Title="{Binding Title}" Height="350" Width="525"
         WindowState="Normal">
