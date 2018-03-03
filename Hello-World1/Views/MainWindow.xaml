@@ -9,7 +9,7 @@
         xmlns:localModels="clr-namespace:Hello_World1.Models"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:md="https://github.com/fantasticfiasco/mvvm-dialogs"
-        md:DialogServiceViews.IsRegistered="False"
+        md:DialogServiceViews.IsRegistered="True"
         mc:Ignorable="d"
         Title="{Binding Title}" Height="350" Width="525"
         WindowState="Normal">
@@ -33,7 +33,7 @@
     <DockPanel>
         <!-- File Menu -->
         <Menu DockPanel.Dock="Top" Margin="0,0,0.4,0">
-            <MenuItem Header="File">
+            <MenuItem Header="Test">
                 <MenuItem Header="New" Command="{Binding NewCmd}" InputGestureText="Ctrl+N" />
                 <MenuItem Header="Open" Command="{Binding OpenCmd}" InputGestureText="Ctrl+O" />
                 <MenuItem Header="Save" Command="{Binding SaveCmd}" InputGestureText="Ctrl+S" />
@@ -45,7 +45,7 @@
         </Menu>
 
         <StackPanel>
-            <!-- Place here your content -->
+            <!-- Plahkkice here your content -->
         </StackPanel>
     </DockPanel>
 </Window>

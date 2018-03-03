@@ -96,6 +96,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Views\Interface2.cs" />
     <Compile Include="Views\WebCustomControl1.cs" />
     <Page Include="Views\About.xaml">
       <SubType>Designer</SubType>
